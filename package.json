@@ -1,0 +1,36 @@
+{
+  "name": "chaoxing-homework",
+  "version": "1.0.0",
+  "description": "学习通（超星）作业自动化：CDP 驱动浏览器，按选项文本匹配答案、逐空写 UEditor、提交后逐空核验对错",
+  "main": "cli.js",
+  "bin": {
+    "cxhw": "cli.js"
+  },
+  "scripts": {
+    "login": "node cli.js login",
+    "courses": "node cli.js courses"
+  },
+  "keywords": [
+    "chaoxing",
+    "xuexitong",
+    "学习通",
+    "超星",
+    "homework",
+    "playwright",
+    "cdp",
+    "automation"
+  ],
+  "author": "tian-yu200",
+  "license": "MIT",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "playwright-core": "^1.40.0"
+  },
+  "files": [
+    "cli.js",
+    "lib/"
+  ]
+}

@@ -1,0 +1,8 @@
+# 忽略登录态、浏览器 profile、依赖与个人答案
+node_modules/
+.edge-profile/
+auth.json
+answers/*.json
+!answers/.gitkeep
+*.log
+.DS_Store
