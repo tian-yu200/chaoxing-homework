@@ -40,15 +40,15 @@ node cli.js login
 node cli.js courses
 
 # 3. 看某门课的作业列表
-node cli.js list --course 265531979 --class 153024279
+node cli.js list --course 123456789 --class 987654321
 ```
 
 `list` 输出类似：
 
 ```
-[1] 第1章 C语言程序设计概述  status=done score=100 workId=55369147 canRedo=true
-[2] 第2章 顺序结构程序设计    status=done score=100 workId=55369097 canRedo=true
-[3] 第3章 选择结构程序设计    status=todo score=-   workId=55369057 canRedo=false
+[1] 第1章 C语言程序设计概述  status=done score=100 workId=10000001 canRedo=true
+[2] 第2章 顺序结构程序设计    status=done score=100 workId=10000002 canRedo=true
+[3] 第3章 选择结构程序设计    status=todo score=-   workId=10000003 canRedo=false
 ```
 
 ## 做题流程
